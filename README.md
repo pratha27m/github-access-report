@@ -1,4 +1,4 @@
-_# GitHub Access Report
+# GitHub Access Report
 
 ## 1. Overview
 
@@ -449,4 +449,4 @@ The GitHub Access Report service provides an aggregated view of repository acces
 
 It satisfies the required functionality by authenticating with GitHub, retrieving repositories and collaborators, determining permissions, aggregating access by user, and exposing the result through a REST API.
 
-The implementation also addresses the scale requirement through bounded concurrent processing and thread-safe aggregation._
+The implementation also addresses the scale requirement through bounded concurrent processing and thread-safe aggregation.
