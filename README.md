@@ -1,4 +1,4 @@
-# GitHub Access Report
+_# GitHub Access Report
 
 ## 1. Overview
 
@@ -192,13 +192,13 @@ The application exposes an endpoint for generating the access report.
 ### Generate Access Report
 
 ```http
-GET /api/access-report/{organization}
+GET /api/github/{organization}/access-report
 ```
 
 Example:
 
 ```http
-GET http://localhost:8082/api/access-report/cloud-eagle-java-test
+GET http://localhost:8082/api/github/cloud-eagle-java-test/access-report
 ```
 
 Replace `cloud-eagle-java-test` with the GitHub organization you want to inspect.
@@ -449,4 +449,4 @@ The GitHub Access Report service provides an aggregated view of repository acces
 
 It satisfies the required functionality by authenticating with GitHub, retrieving repositories and collaborators, determining permissions, aggregating access by user, and exposing the result through a REST API.
 
-The implementation also addresses the scale requirement through bounded concurrent processing and thread-safe aggregation.
+The implementation also addresses the scale requirement through bounded concurrent processing and thread-safe aggregation._
